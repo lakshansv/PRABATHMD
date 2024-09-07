@@ -1,12 +1,12 @@
 {
-  "name": "PRABATHMD",
+  "name": "supun",
   "version": "2.1.3",
   "description": "A WhatsApp bot project with various features and integrations.",
   "main": "start.js",
   "scripts": {
-    "start": "pm2 start start.js --deep-monitoring --attach --name PRABATHMD",
-    "stop": "pm2 stop PRABATHMD",
-    "restart": "pm2 restart PRABATHMD"
+    "start": "pm2 start start.js --deep-monitoring --attach --name supun",
+    "stop": "pm2 stop supun",
+    "restart": "pm2 restart supun"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "git+https://github.com/PMD-API-UPDATE/Baileys-6.6.0.git#master",
